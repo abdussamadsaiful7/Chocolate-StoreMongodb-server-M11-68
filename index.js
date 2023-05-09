@@ -43,7 +43,7 @@ async function run() {
         res.send(result);
     })
 
-
+// send data to server
     app.post('/chocolate',async(req, res)=>{
         const newChocolate = req.body;
         console.log(newChocolate)
